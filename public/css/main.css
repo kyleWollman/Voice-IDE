@@ -1,0 +1,310 @@
+.row{
+	background: #f8f9fa;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+.nopadding{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.darkGoldBG{
+	background-color:#B58900;
+}
+
+.darkGold{
+	color: #B58900;
+}
+
+.lightBlue{
+	color: #268BD2;
+}
+
+.lightBlueBG{
+	background-color: #268BD2;
+}
+
+.innerWhite{
+	color: white;
+}
+
+.topPad{
+	padding-top: 5%;
+}
+
+#siError{
+  text-align:center;
+  margin:auto;
+  padding-top:10px;
+  color:red;
+}
+
+#editor {
+	height: 600px;
+}
+
+#chat-box {
+	height: 100%;
+	margin-left: 0px;
+}
+
+#chat-history-container {
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #dee2e6;
+	height: 550px;
+	overflow: scroll;
+}
+
+#message-form #message-input {
+	font-size: 12px;
+	border: 1px solid #dee2e6;
+	width: 100%;
+	height: 60px;
+	margin: 2.5px 0;
+}
+
+#message-submit {
+	margin-top: 15px;
+}
+
+#message-form {
+	height: 15%;
+	margin-left: 0px;
+}
+
+#chat-history {
+	padding: 5px;
+	list-style-type: none;
+}
+
+#chat-history li {
+	padding: 5px;
+	border-bottom: 1px solid #dee2e6;
+}
+
+#profilePic{
+	border-radius:50%;
+}
+
+ ul.fancytree-container {
+  border: none;
+  background-color: #f8f9fa;
+  font-size: 1.2vw;
+  outline:none !important;
+}
+
+#displayName{
+	font-size: 1vw;
+}
+
+.message-details, .message-content {
+	padding: 0;
+	margin: 0;
+}
+
+.message-content {
+	font-size: 12px;
+}
+
+.message-details {
+	font-size: 10px;
+	opacity: 0.5;
+}
+
+.received-message, .error-message {
+	text-align: left;
+}
+
+.error-message .message-content {
+	color: red;
+}
+
+.sent-message {
+	text-align: right;
+}
+
+.sent-message .message-details {
+	color: #268bd2;
+}
+
+.received-message .message-details, .error-message .message-details {
+	color: #b58900;
+}
+
+.hwTut {
+    position: relative;
+    display: inline-block;
+}
+
+.hwTut .hwText {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hwTut .hwText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.hwTut:hover .hwText {
+    visibility: visible;
+    opacity: 1;
+}
+
+#bTut:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+.avTut {
+    position: relative;
+    display: inline-block;
+}
+
+.avTut .avText {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.avTut .avText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.avTut:hover .avText {
+    visibility: visible;
+    opacity: 1;
+}
+
+#aTut:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command1:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command2:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command3:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command4:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command5:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command6:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command7:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command8:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command9:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command10:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command11:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command12:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command13:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command14:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command15:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command16:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command17:hover {
+	color:blue;
+	cursor:pointer;
+}
+
+#command18:hover {
+	color:blue;
+	cursor:pointer;
+}
+
