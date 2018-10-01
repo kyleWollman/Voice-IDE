@@ -1,2 +1,2 @@
-# Voice-IDE
-Voice Controlled IDE
+# Aquarius
+Add your clienID and clientSecret to keys.js

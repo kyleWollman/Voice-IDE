@@ -1,0 +1,36 @@
+{
+  "name": "Aquarius",
+  "version": "0.1.0",
+  "description": "A voice controlled IDE",
+  "main": "main.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bonhamjp/Aquarius"
+  },
+  "author": "John Bonham, Ben Carlson, Kyle Wollman",
+  "license": "0BSD",
+  "dependencies": {
+    "@google-cloud/speech": "^2.0.0",
+    "@grpc/proto-loader": "^0.3.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "dialogflow": "^0.6.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-ws": "^4.0.0",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "jquery.fancytree": "^2.29.1",
+    "node-pty": "^0.7.6",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "supertest": "^3.1.0",
+    "xterm": "^3.5.1"
+  }
+}
